@@ -1,0 +1,33 @@
+.button {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;transition: all .50s ease-in-out;
+    text-decoration: none;
+}
+
+.icon{
+    padding: 8px;
+    padding-left: 12px;
+    width: 16px;
+    border-width: 1px;
+    border-color: black;
+    color: black;
+    border-radius: 5px;
+    border-style: solid;
+    transition: all .50s ease-in-out;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.icon > i{
+    padding-left: 1px;
+}
+
+.button:hover > .icon{
+    transform: scale(.9) translateY(-5px);
+    -webkit-transform: scale(.9) translateY(-5px);
+}
